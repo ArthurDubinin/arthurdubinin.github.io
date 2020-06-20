@@ -2,7 +2,7 @@
 
   $.fn.twentytwenty = function(options) {
     var options = $.extend({
-      default_offset_pct: 0.5,
+      default_offset_pct: 0.3,
       orientation: 'horizontal',
       before_label: 'Before',
       after_label: 'After',
