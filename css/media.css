@@ -8,7 +8,7 @@
 }
 @media only screen and (max-width: 1920px) {
 .centermenu{
-	width: 50%;
+	width: 500px;
 }
 .background{
 	height: 
@@ -37,10 +37,46 @@
 .light{
 	display: none;
 }
-}	
 @media only screen and (max-width: 720px) {
 .welcome{
 	font-size: 50px;
+}
+iframe{
+	width: 304px;
+	height: 171px;
+}
+.photo{
+	width: 304px; 
+	height: 171px;
+}
+.frame ul li {
+	width: 344px;
+	height: 450px;
+}
+.button {
+  	margin-left: 60px;
+  	margin-right: 60px;
+}
+.buttoon {
+    margin-left: 60px;
+  	margin-right: 60px;
+}
+.beforeafter{
+	width: 304px;
+	height: 171px;
+}
+.backbody{
+	height:600px;
+	width: 344px;
+	margin-top:85px; 
+}
+.body{
+	width: 344px;
+	height: 100%;
+}
+.back{
+	height:322px;
+	width: 344px;
 }
 .presetdiv{
 	display: block;
@@ -50,6 +86,7 @@
 }
 .logoc, .logocenter{
 	display: block;
+	margin: auto;
 }
 .logoc{
 	padding-top: 5px;
@@ -57,65 +94,52 @@
 .menu{
 	display: none;
 }
-.preset{
-	text-align: center;
-	font-size: 25px;
-	margin-left: 0;
-}
-.aboutme{
-	text-align: center;
-	font-size: 25px;
-	margin-left: 0;
-}
-.shoptext{
-	height: auto;
-	margin-bottom: 35px;
-	margin-left: 0;
-}
-.preset{
-	margin-left: 0%;
-}
-.text{
-	display: none;
-}
-.textphone{
-	display: block;
-}
-.light{
-	display: block;
-}
-.del{
-	display: block;
-}
-.button{
-	max-width: 1000px;
-}
-}
 @media only screen and (max-width: 480px) {
-.beforephoto{
-	width:317px;
-	height:395px;
+.name{
+	font-size: 20px;
 }
-.afterphoto{
-	width:317px;
-	height:395px;
+.mininame{
+	font-size: 15px;
+}
+iframe{
+	width: 243px;
+	height: 136px;
+}
+.photo{
+	width: 243px; 
+	height: 136px;
+}
+.frame ul li {
+	width: 283px;
+	height: 390px;
+}
+.button {
+  	margin-left: 20px;
+  	margin-right: 20px;
+}
+.buttoon {
+    margin-left: 20px;
+  	margin-right: 20px;
 }
 .beforeafter{
-	width:317px;
-	height:395px;	
+	width: 243px; 
+	height: 136px;
 }
-.presetdiv{
-	display: block;
-	margin-left: 0;
-	margin: auto;
-	width:317px;	
+.backbody{
+	height:750px;
+	width: 283px;
+	margin-top:68px; 
 }
+.body{
+	width: 283px;
+	height: 950px;
+}
+.back{
+	height:322px;
+	width: 283px;
+	margin-top:68px; 
 }
 @media only screen and (max-width: 400px) {
-.beforephoto{
-	width:254px;
-	height:316px;
-}
 .welcome{
 	font-size: 40px;
 }
@@ -139,10 +163,4 @@
 }
 .botton{
 	width: 100%;
-}
-}
-@media only screen and (max-width: 310px) {
-.notsup{
-	display: block;
-}
 }
